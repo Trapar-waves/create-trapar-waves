@@ -2,10 +2,12 @@ import type { Packument } from "@npm/types";
 import type { TemplateProvider } from "giget";
 import type { Argv } from "yargs";
 import { execSync } from "node:child_process";
+import { note, outro } from "@clack/prompts";
 import { destr } from "destr";
 import { downloadTemplate } from "giget";
 import { ofetch } from "ofetch";
-import { bold } from "picocolors";
+import { bold, cyan, dim, reset } from "picocolors";
+import { logger as rslog } from "rslog";
 import { joinURL } from "ufo";
 import { logger } from "../logger";
 
@@ -24,13 +26,14 @@ interface OrgRepos {
 }
 
 export async function handler() {
-  const projectName = await logger.prompt("What is project name?", {
+  rslog.greet("Create Trapar Waves Template");
+  const projectName = await logger.prompt("Project name?", {
     type: "text",
   });
 
   const orgList = await ofetch<OrgRepos>("https://ungh.cc/orgs/Trapar-waves/repos", { parseResponse: destr });
 
-  const templateName = await logger.prompt("choose template", {
+  const templateName = await logger.prompt("Choose template", {
     type: "select",
     options: orgList.repos.map(item => ({ label: `${bold(item.name)} ${item.description ?? ""}`, value: item.name })),
   });
@@ -59,9 +62,17 @@ export async function handler() {
       ),
     };
   };
-  const { source, dir } = await downloadTemplate(`npm:react-antd-pro`, {
+  const { dir } = await downloadTemplate(`npm:react-antd-pro`, {
     dir: projectName,
     providers: { npm: npmRainbow },
   });
-  logger.log(`project downloading,${source},${dir}`);
+
+  const nextSteps = [
+    `1. ${cyan(`cd ${dir}`)}`,
+    `2. ${cyan("git init")} ${dim("(optional)")}`,
+    `3. ${cyan(`pnpm install`)}`,
+    `4. ${cyan(`pnpm run dev`)}`,
+  ];
+  note(nextSteps.map(step => reset(step)).join("\n"), "Next steps");
+  outro("All set, happy coding!");
 }
