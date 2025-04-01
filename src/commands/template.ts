@@ -6,7 +6,7 @@ import { note, outro } from "@clack/prompts";
 import { destr } from "destr";
 import { downloadTemplate } from "giget";
 import { ofetch } from "ofetch";
-import { bold, cyan, dim, reset } from "picocolors";
+import { bold, cyan, dim, gray, reset } from "picocolors";
 import { logger as rslog } from "rslog";
 import { joinURL } from "ufo";
 import { logger } from "../logger";
@@ -35,7 +35,10 @@ export async function handler() {
 
   const templateName = await logger.prompt("Choose template", {
     type: "select",
-    options: orgList.repos.map(item => ({ label: `${bold(item.name)} ${item.description ?? ""}`, value: item.name })),
+    options: orgList
+      .repos
+      .filter(item => item.name !== "create-trapar-waves")
+      .map(item => ({ label: `${bold(item.name)} ${item.description ? gray(item.description) : ""}`, value: item.name })),
   });
 
   const registry = execSync("npm get registry --global").toString();
