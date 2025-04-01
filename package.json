@@ -1,0 +1,41 @@
+{
+  "name": "create-trapar-waves",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "description": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "bin": {
+    "create-trapar-waves": "./bin/run"
+  },
+  "scripts": {
+    "start": "ts-node ./bin/run.ts",
+    "start:node": "node ./bin/run",
+    "build": "tsup-node",
+    "build:watch": "tsup-node --watch"
+  },
+  "dependencies": {
+    "consola": "^3.4.2",
+    "destr": "^2.0.3",
+    "giget": "^2.0.0",
+    "ofetch": "^1.4.1",
+    "picocolors": "^1.1.1",
+    "ufo": "^1.5.4",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.11.0",
+    "@npm/types": "^2.0.0",
+    "@types/node": "^22.13.14",
+    "@types/yargs": "^17.0.33",
+    "eslint": "^9.23.0",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  }
+}
