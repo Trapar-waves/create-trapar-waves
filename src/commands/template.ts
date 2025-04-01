@@ -32,7 +32,7 @@ export async function handler() {
 
   const templateName = await logger.prompt("choose template", {
     type: "select",
-    options: orgList.repos.map(item => `${bold(item.name)} ${item.description ?? ""}`),
+    options: orgList.repos.map(item => ({ label: `${bold(item.name)} ${item.description ?? ""}`, value: item.name })),
   });
 
   const registry = execSync("npm get registry --global").toString();
