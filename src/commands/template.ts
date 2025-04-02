@@ -65,7 +65,7 @@ export async function handler() {
       ),
     };
   };
-  const { dir } = await downloadTemplate(`npm:react-antd-pro`, {
+  const { dir } = await downloadTemplate(`npm:${templateName}`, {
     dir: projectName,
     providers: { npm: npmRainbow },
   });
