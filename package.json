@@ -20,7 +20,7 @@
     "build:watch": "tsup-node --watch"
   },
   "dependencies": {
-    "@clack/prompts": "^0.10.0",
+    "@clack/prompts": "^0.10.1",
     "consola": "^3.4.2",
     "destr": "^2.0.5",
     "giget": "^2.0.0",
