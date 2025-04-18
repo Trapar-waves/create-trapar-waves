@@ -35,7 +35,7 @@
     "@npm/types": "^2.0.0",
     "@types/node": "^22.14.1",
     "@types/yargs": "^17.0.33",
-    "eslint": "^9.24.0",
+    "eslint": "^9.25.0",
     "ts-node": "^10.9.2",
     "tsup": "^8.4.0",
     "typescript": "^5.8.3"
