@@ -30,9 +30,11 @@ export async function handler() {
 
   const templateName = await logger.prompt("Choose template", {
     type: "select",
-    options: createList
-      .filter(item => item.name !== "create-trapar-waves")
-      .map(item => ({ label: `${bold(item.name)} ${item.description ? gray(item.description) : ""}`, value: item.name })),
+    options: createList.map(item =>
+      ({
+        label: `${bold(item.name)} ${item.description ? gray(item.description) : ""}`,
+        value: item.name,
+      })),
   });
 
   const registry = execSync("npm get registry --global").toString();
@@ -54,7 +56,7 @@ export async function handler() {
         registry.trim(),
         input,
         "-",
-        `${input}-${latestVersion}.tgz`,
+        `${input.replace("@trapar-waves/", "")}-${latestVersion}.tgz`,
       ),
     };
   };
