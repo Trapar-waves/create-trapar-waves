@@ -3,6 +3,7 @@ import type { TemplateProvider } from "giget";
 import type { Argv } from "yargs";
 import { execSync } from "node:child_process";
 import { note, outro } from "@clack/prompts";
+import { createList } from "@trapar-waves/captain";
 import { destr } from "destr";
 import { downloadTemplate } from "giget";
 import { ofetch } from "ofetch";
@@ -21,29 +22,22 @@ export function builder(yargs: Argv<GreetingArgv>): Argv {
   return yargs;
 }
 
-interface OrgRepos {
-  repos: Array<{ name: string; description: string | null }>;
-}
-
 export async function handler() {
   rslog.greet("Create Trapar Waves Template");
   const projectName = await logger.prompt("Project name?", {
     type: "text",
   });
 
-  const orgList = await ofetch<OrgRepos>("https://ungh.cc/orgs/Trapar-waves/repos", { parseResponse: destr });
-
   const templateName = await logger.prompt("Choose template", {
     type: "select",
-    options: orgList
-      .repos
+    options: createList
       .filter(item => item.name !== "create-trapar-waves")
       .map(item => ({ label: `${bold(item.name)} ${item.description ? gray(item.description) : ""}`, value: item.name })),
   });
 
   const registry = execSync("npm get registry --global").toString();
   const npmData = await ofetch<Packument>(
-    joinURL(registry.trim(), "@trapar-waves", templateName),
+    joinURL(registry.trim(), templateName),
     { parseResponse: destr },
   );
   const latestVersion = npmData["dist-tags"].latest;
@@ -58,7 +52,6 @@ export async function handler() {
       name: "npm",
       tar: joinURL(
         registry.trim(),
-        "@trapar-waves",
         input,
         "-",
         `${input}-${latestVersion}.tgz`,
