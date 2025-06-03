@@ -12,8 +12,8 @@ importers:
         specifier: ^0.11.0
         version: 0.11.0
       '@trapar-waves/captain':
-        specifier: ^1.0.2
-        version: 1.0.2
+        specifier: ^1.0.3
+        version: 1.0.3
       consola:
         specifier: ^3.4.2
         version: 3.4.2
@@ -561,8 +561,8 @@ packages:
     peerDependencies:
       eslint: '>=9.0.0'
 
-  '@trapar-waves/captain@1.0.2':
-    resolution: {integrity: sha512-PogaF6za5cUartA6jqZld+eTsh4zcaPWqNuFkY0GVGjf3n33wefOzwp8qaAOJaPI5hNifIvu6VYcMtNceXEA6A==}
+  '@trapar-waves/captain@1.0.3':
+    resolution: {integrity: sha512-w6+Hj4+ZSbnWrc6YbmHvSgBnTuWdVI//h47FIsg6o4sbA9C3V7Ufek8hbyEvsS3vJ7RKtyVXvCoIsnrIl1jzsA==}
 
   '@tsconfig/node10@1.0.11':
     resolution: {integrity: sha512-DcRjDCujK/kCk/cUe8Xz8ZSpm8mS3mNNpta+jGCA6USEDfktlNvm1+IuZ9eTcDbNk41BHwpHHeW+N1lKCz4zOw==}
@@ -2529,7 +2529,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@trapar-waves/captain@1.0.2':
+  '@trapar-waves/captain@1.0.3':
     dependencies:
       destr: 2.0.5
       pkg-types: 2.1.0
