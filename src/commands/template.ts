@@ -2,6 +2,7 @@ import type { Packument } from "@npm/types";
 import type { TemplateProvider } from "giget";
 import type { Argv } from "yargs";
 import { execSync } from "node:child_process";
+import { writeFileSync } from "node:fs";
 import { note, outro } from "@clack/prompts";
 import { createList } from "@trapar-waves/captain";
 import { destr } from "destr";
@@ -64,6 +65,15 @@ export async function handler() {
     dir: projectName,
     providers: { npm: npmRainbow },
   });
+
+  writeFileSync(joinURL(dir, ".gitignore"), [
+    "node_modules",
+    "dist",
+    ".idea",
+    ".DS_Store",
+    "*.log",
+    "*.vsix",
+  ].join("\n"));
 
   const nextSteps = [
     `1. ${cyan(`cd ${dir}`)}`,
