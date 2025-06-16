@@ -6,8 +6,20 @@
   "publishConfig": {
     "access": "public"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "email": "admin@rikka.cc",
+    "name": "Rikka",
+    "url": "https://github.com/Muromi-Rikka"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Trapar-Waves/create-trapar-waves",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trapar-Waves/create-trapar-waves.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Trapar-Waves/create-trapar-waves/issues"
+  },
   "keywords": [],
   "main": "index.js",
   "bin": {
