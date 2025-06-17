@@ -30,8 +30,8 @@ importers:
         specifier: ^1.1.1
         version: 1.1.1
       rslog:
-        specifier: ^1.2.6
-        version: 1.2.6
+        specifier: ^1.2.7
+        version: 1.2.7
       ufo:
         specifier: ^1.6.1
         version: 1.6.1
@@ -1705,8 +1705,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  rslog@1.2.6:
-    resolution: {integrity: sha512-TGqKQNWVdVTQBG8dtIhdzJheYMCQy4JNG778OmyQAHc3NksEPK0ESexnHm/5EHC7BYAjYkc0r9SDI9PnKtzodw==}
+  rslog@1.2.7:
+    resolution: {integrity: sha512-8fnO9sQfJ4wxg1rCoden42V9A1TloS8HfgvSXZg8lZjgP74iM+PnlV8Sj4+9ouRP8juWx5qkO/+GFjTKAf2s0Q==}
 
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
@@ -3767,7 +3767,7 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.38.0
       fsevents: 2.3.3
 
-  rslog@1.2.6: {}
+  rslog@1.2.7: {}
 
   run-parallel@1.2.0:
     dependencies:
