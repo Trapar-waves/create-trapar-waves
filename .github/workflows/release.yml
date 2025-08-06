@@ -4,11 +4,12 @@ name: Release
 
 permissions:
   contents: write
+  id-token: write
 
 on:
   push:
     tags:
-      - 'v*'
+      - "v*"
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -39,6 +40,6 @@ jobs:
           cache: pnpm
       - run: pnpm install
       - run: pnpm build
+      - name: Update npm
+        run: npm install -g npm@latest
       - run: npm publish --access=public
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}

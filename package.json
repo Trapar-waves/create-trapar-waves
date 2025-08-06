@@ -13,13 +13,13 @@
     "url": "https://github.com/Muromi-Rikka"
   },
   "license": "MIT",
-  "homepage": "https://github.com/Trapar-Waves/create-trapar-waves",
+  "homepage": "https://github.com/Trapar-waves/create-trapar-waves",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Trapar-Waves/create-trapar-waves.git"
+    "url": "https://github.com/Trapar-waves/create-trapar-waves"
   },
   "bugs": {
-    "url": "https://github.com/Trapar-Waves/create-trapar-waves/issues"
+    "url": "https://github.com/Trapar-waves/create-trapar-waves/issues"
   },
   "keywords": [],
   "main": "index.js",
