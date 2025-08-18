@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "@clack/prompts": "^0.11.0",
-    "@trapar-waves/captain": "^1.1.7",
+    "@trapar-waves/captain": "^1.1.8",
     "consola": "^3.4.2",
     "destr": "^2.0.5",
     "giget": "^2.0.0",
@@ -45,9 +45,9 @@
     "yargs": "^18.0.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^5.2.0",
+    "@antfu/eslint-config": "^5.2.1",
     "@npm/types": "^2.1.0",
-    "@types/node": "^24.2.1",
+    "@types/node": "^24.3.0",
     "@types/yargs": "^17.0.33",
     "eslint": "^9.33.0",
     "ts-node": "^10.9.2",
