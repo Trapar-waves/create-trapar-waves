@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "@clack/prompts": "^0.11.0",
-    "@trapar-waves/captain": "^1.1.8",
+    "@trapar-waves/captain": "^1.1.9",
     "consola": "^3.4.2",
     "destr": "^2.0.5",
     "giget": "^2.0.0",
