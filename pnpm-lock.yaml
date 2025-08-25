@@ -12,8 +12,8 @@ importers:
         specifier: ^0.11.0
         version: 0.11.0
       '@trapar-waves/captain':
-        specifier: ^1.1.8
-        version: 1.1.8
+        specifier: ^1.1.9
+        version: 1.1.9
       consola:
         specifier: ^3.4.2
         version: 3.4.2
@@ -541,8 +541,8 @@ packages:
     peerDependencies:
       eslint: '>=9.0.0'
 
-  '@trapar-waves/captain@1.1.8':
-    resolution: {integrity: sha512-Qay+sT1kWqPFhmcUA1Raqj2NcTm8ExJPYaJcff13oj8FP66ckO6KIg8QtmxrhZ/Km7fOwuRUKRh+b5S1uT8wEw==}
+  '@trapar-waves/captain@1.1.9':
+    resolution: {integrity: sha512-WZ4eIhmKgbfu8fupA7dwL6VsuVgzoX91H5QZUAufpBiMi+XiGZjXfwuZ2aSdwEKCpWi+skvssncWbORVquI8eg==}
 
   '@tsconfig/node10@1.0.11':
     resolution: {integrity: sha512-DcRjDCujK/kCk/cUe8Xz8ZSpm8mS3mNNpta+jGCA6USEDfktlNvm1+IuZ9eTcDbNk41BHwpHHeW+N1lKCz4zOw==}
@@ -1646,6 +1646,9 @@ packages:
   pkg-types@2.2.0:
     resolution: {integrity: sha512-2SM/GZGAEkPp3KWORxQZns4M+WSeXbC2HEvmOIJe3Cmiv6ieAJvdVhDldtHqM5J1Y7MrR1XhkBT/rMlhh9FdqQ==}
 
+  pkg-types@2.3.0:
+    resolution: {integrity: sha512-SIqCzDRg0s9npO5XQ3tNZioRY1uK06lA41ynBC1YmFTmnY6FjUjVt6s4LoADmwoig1qqD0oK8h1p/8mlMx8Oig==}
+
   pluralize@8.0.0:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
     engines: {node: '>=4'}
@@ -2392,10 +2395,10 @@ snapshots:
       estraverse: 5.3.0
       picomatch: 4.0.3
 
-  '@trapar-waves/captain@1.1.8':
+  '@trapar-waves/captain@1.1.9':
     dependencies:
       destr: 2.0.5
-      pkg-types: 2.2.0
+      pkg-types: 2.3.0
       ufo: 1.6.1
 
   '@tsconfig/node10@1.0.11': {}
@@ -3718,6 +3721,12 @@ snapshots:
       pathe: 2.0.3
 
   pkg-types@2.2.0:
+    dependencies:
+      confbox: 0.2.2
+      exsolve: 1.0.7
+      pathe: 2.0.3
+
+  pkg-types@2.3.0:
     dependencies:
       confbox: 0.2.2
       exsolve: 1.0.7
