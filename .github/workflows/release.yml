@@ -17,13 +17,16 @@ jobs:
       - uses: actions/checkout@v5
         with:
           fetch-depth: 0
-
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
       - name: Set node
         uses: actions/setup-node@v5
         with:
           registry-url: https://registry.npmjs.org/
           node-version: lts/*
-
+          cache: pnpm
+      - name: Install dependencies
+        run: pnpm install
       - run: npx changelogithub # or changelogithub@0.12 to ensure a stable result
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
