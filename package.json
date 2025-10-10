@@ -2,7 +2,7 @@
   "name": "create-trapar-waves",
   "type": "commonjs",
   "version": "1.2.12",
-  "packageManager": "pnpm@10.18.1",
+  "packageManager": "pnpm@10.18.2",
   "description": "",
   "publishConfig": {
     "access": "public"
