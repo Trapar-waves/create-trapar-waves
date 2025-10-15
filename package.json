@@ -47,7 +47,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^6.0.0",
     "@npm/types": "^2.1.0",
-    "@types/node": "^24.7.1",
+    "@types/node": "^24.7.2",
     "@types/yargs": "^17.0.33",
     "eslint": "^9.37.0",
     "ts-node": "^10.9.2",
