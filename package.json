@@ -48,7 +48,7 @@
     "@antfu/eslint-config": "^6.0.0",
     "@npm/types": "^2.1.0",
     "@types/node": "^24.9.1",
-    "@types/yargs": "^17.0.33",
+    "@types/yargs": "^17.0.34",
     "eslint": "^9.38.0",
     "ts-node": "^10.9.2",
     "tsup": "^8.5.0",
