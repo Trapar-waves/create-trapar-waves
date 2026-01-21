@@ -45,7 +45,7 @@
     "yargs": "^18.0.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^7.1.0",
+    "@antfu/eslint-config": "^7.2.0",
     "@npm/types": "^2.1.0",
     "@types/node": "^24.10.9",
     "@types/yargs": "^17.0.35",
