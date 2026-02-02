@@ -33,7 +33,7 @@
     "build:watch": "tsup-node --watch"
   },
   "dependencies": {
-    "@clack/prompts": "^0.11.0",
+    "@clack/prompts": "^1.0.0",
     "@trapar-waves/captain": "^1.1.21",
     "consola": "^3.4.2",
     "destr": "^2.0.5",
