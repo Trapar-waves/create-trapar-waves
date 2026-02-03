@@ -37,7 +37,7 @@
     "@trapar-waves/captain": "^1.1.21",
     "consola": "^3.4.2",
     "destr": "^2.0.5",
-    "giget": "^2.0.0",
+    "giget": "^3.1.1",
     "ofetch": "^1.5.1",
     "picocolors": "^1.1.1",
     "rslog": "^2.0.0",
