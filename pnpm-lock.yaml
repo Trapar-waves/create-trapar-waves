@@ -21,8 +21,8 @@ importers:
         specifier: ^2.0.5
         version: 2.0.5
       giget:
-        specifier: ^3.1.1
-        version: 3.1.1
+        specifier: ^3.1.2
+        version: 3.1.2
       ofetch:
         specifier: ^1.5.1
         version: 1.5.1
@@ -1258,8 +1258,8 @@ packages:
   get-tsconfig@4.10.1:
     resolution: {integrity: sha512-auHyJ4AgMz7vgS8Hp3N6HXSmlMdUyhSUrfBF16w153rxtLIEOE+HGqaBppczZvnHLqQJfiHotCYpNhl0lUROFQ==}
 
-  giget@3.1.1:
-    resolution: {integrity: sha512-wwGgnwnZuJT7v9RNssirmhWwTo/zeFkbCVF8KDzm0VrH+lPOW0OOl4degdKy6ofNxNjOMpLE0GgCuH/4AJFSzA==}
+  giget@3.1.2:
+    resolution: {integrity: sha512-T2qUpKBHeUTwHcIhydgnJzhL0Hj785ms+JkxaaWQH9SDM/llXeewnOkfJcFShAHjWI+26hOChwUfCoupaXLm8g==}
     hasBin: true
 
   github-slugger@2.0.0:
@@ -3139,7 +3139,7 @@ snapshots:
     dependencies:
       resolve-pkg-maps: 1.0.0
 
-  giget@3.1.1: {}
+  giget@3.1.2: {}
 
   github-slugger@2.0.0: {}
 
