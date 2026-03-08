@@ -30,8 +30,8 @@ importers:
         specifier: ^1.1.1
         version: 1.1.1
       rslog:
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: ^2.0.1
+        version: 2.0.1
       ufo:
         specifier: ^1.6.3
         version: 1.6.3
@@ -1706,8 +1706,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  rslog@2.0.0:
-    resolution: {integrity: sha512-YdUL4bkGCT9z8o6mD0Dcmns0+30UnR7DZpDMlC4w/D0YNapbJE9S0g20na+p1zBfwWqsqRyxNXNtrp/kfWqwEQ==}
+  rslog@2.0.1:
+    resolution: {integrity: sha512-BdZYILSV4V5Ms7IweGZyo9udJZHQCeUm5cEzlA8KzeY4aEJr2QA6qYWGzgA7yShBU7Igp3qQM6krKUXzze5pqw==}
     engines: {node: ^20.19.0 || >=22.12.0}
 
   scslre@0.3.0:
@@ -3721,7 +3721,7 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.38.0
       fsevents: 2.3.3
 
-  rslog@2.0.0: {}
+  rslog@2.0.1: {}
 
   scslre@0.3.0:
     dependencies:
