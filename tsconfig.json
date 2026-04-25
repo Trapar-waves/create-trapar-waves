@@ -1,19 +1,19 @@
 {
   "compilerOptions": {
-    "outDir": "dist/src",
     "baseUrl": ".",
     "module": "esnext",
     "moduleResolution": "bundler",
-    "allowUnusedLabels": false,
+    "resolveJsonModule": true,
     "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "forceConsistentCasingInFileNames": true,
     "declaration": true,
+    "outDir": "dist/src",
     "sourceMap": true,
-    "resolveJsonModule": true
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src"],
   "exclude": ["dist", "bundle", "node_modules"],

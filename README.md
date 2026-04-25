@@ -6,8 +6,6 @@
 [![JSDocs][jsdocs-src]][jsdocs-href]
 [![License][license-src]][license-href]
 
-<!-- [![Codecov][codecov-src]][codecov-href] -->
-
 > Template download tools
 
 - [x] 📦 1.32KB bundle size
@@ -108,5 +106,3 @@ node dist/index.js
 [jsdocs-href]: https://www.jsdocs.io/package/create-trapar-waves
 [license-src]: https://img.shields.io/github/license/trapar-waves/create-trapar-waves.svg
 [license-href]: https://github.com/trapar-waves/create-trapar-waves/blob/main/LICENSE
-[codecov-src]: https://img.shields.io/codecov/c/gh/trapar-waves/create-trapar-waves/main.svg
-[codecov-href]: https://codecov.io/gh/trapar-waves/create-trapar-waves

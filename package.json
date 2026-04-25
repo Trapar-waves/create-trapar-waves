@@ -30,7 +30,8 @@
     "start": "ts-node ./bin/run.ts",
     "start:node": "node ./bin/run",
     "build": "tsup-node",
-    "build:watch": "tsup-node --watch"
+    "build:watch": "tsup-node --watch",
+    "lint": "eslint . --cache"
   },
   "dependencies": {
     "@clack/prompts": "^1.2.0",
