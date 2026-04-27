@@ -27,15 +27,15 @@
     "create-trapar-waves": "./bin/run"
   },
   "scripts": {
-    "start": "ts-node ./bin/run.ts",
+    "start": "tsx ./bin/run.ts",
     "start:node": "node ./bin/run",
-    "build": "tsup-node",
-    "build:watch": "tsup-node --watch",
+    "build": "rslib",
+    "build:watch": "rslib --watch",
     "lint": "eslint . --cache"
   },
   "dependencies": {
     "@clack/prompts": "^1.2.0",
-    "@trapar-waves/captain": "^1.1.23",
+    "@trapar-waves/captain": "^1.2.0",
     "consola": "^3.4.2",
     "destr": "^2.0.5",
     "giget": "^3.2.0",
@@ -48,11 +48,11 @@
   "devDependencies": {
     "@antfu/eslint-config": "^8.2.0",
     "@npm/types": "^2.1.0",
+    "@rslib/core": "^0.21.3",
     "@types/node": "^25.6.0",
     "@types/yargs": "^17.0.35",
     "eslint": "^10.2.1",
-    "ts-node": "^10.9.2",
-    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
     "typescript": "^6.0.3"
   }
 }

@@ -2,3 +2,5 @@ dist
 node_modules
 .idea
 .eslintcache
+skills-lock.json
+.agents
