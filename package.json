@@ -42,7 +42,7 @@
     "ofetch": "^1.5.1",
     "picocolors": "^1.1.1",
     "rslog": "^2.1.1",
-    "ufo": "^1.6.3",
+    "ufo": "^1.6.4",
     "yargs": "^18.0.0"
   },
   "devDependencies": {
