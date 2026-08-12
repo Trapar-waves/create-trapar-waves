@@ -1,21 +1,69 @@
 # create-trapar-waves
 
-[![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![bundle][bundle-src]][bundle-href]
-[![JSDocs][jsdocs-src]][jsdocs-href]
-[![License][license-src]][license-href]
+![npm version](https://img.shields.io/npm/v/create-trapar-waves)
+![npm dm](https://img.shields.io/npm/dm/create-trapar-waves)
+![License](https://img.shields.io/github/license/Trapar-waves/create-trapar-waves)
+![GitHub last commit](https://img.shields.io/github/last-commit/Trapar-waves/create-trapar-waves)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Trapar-waves/create-trapar-waves/release.yml)
+![Renovate](https://img.shields.io/badge/renovate-enabled-blue)
 
-> Template download tools
+---
 
-- [x] 📦 1.32KB bundle size
-- [x] 📘 JSDocs
-- [x] 📦 Out of the box support for Node.js, Deno and Bun
-- [x] ⚡ Lightning fast template downloads using your local npm mirror
-- [x] 🧰 Integrated with Rstack ecosystem (Rsbuild/Rspack/Rslib)
-- [x] ✅ Code quality assurance with Husky, lint-staged and ESLint
+[中文](./readme/README-CN.md) | [日本語](./readme/README-JP.md) | [Русский язык](./readme/README-RU.md)
 
-## Install
+> A project scaffolding CLI tool for downloading and creating projects from curated templates, leveraging the Rstack ecosystem (Rsbuild/Rspack/Rslib) for optimal build performance.
+
+## ✨ Features
+
+- **Lightning Fast Downloads:** Leverages your locally configured npm mirror for blazing fast template downloads via `giget`.
+- **Template Selection:** Choose from a curated list of production-ready project templates covering CLI, React, Vue, and LLM development.
+- **Interactive Prompts:** Guided setup with intuitive prompts powered by `@clack/prompts`.
+- **Automatic .gitignore:** Generates a standard `.gitignore` file for your new project.
+- **Next Steps Guidance:** Provides clear instructions for getting started after project creation.
+- **Rstack Ecosystem Integration:** All templates leverage the powerful Rstack ecosystem (Rsbuild/Rspack/Rslib) for optimal build performance.
+- **Code Quality Assurance:** Templates ship with Husky, lint-staged, and ESLint integration for consistent code quality.
+- **Cross-Runtime Support:** Works with Node.js, Deno, and Bun out of the box.
+
+## 💻 Tech Stack
+
+- **Language:** TypeScript (v5.9.x)
+- **Build Tool:** tsup
+- **CLI Framework:** yargs
+- **Interactive Prompts:** `@clack/prompts`
+- **Logging:** `consola` + `rslog`
+- **HTTP Client:** `ofetch`
+- **Template Download:** `giget`
+- **Utilities:** `destr`, `ufo`, `picocolors`
+- **Ecosystem:** `@trapar-waves/captain`
+
+See the [package.json](./package.json) for a full list of dependencies.
+
+## 📦 Available Templates
+
+All templates leverage the powerful Rstack ecosystem (Rsbuild/Rspack/Rslib) for optimal build performance:
+
+| Template | Description |
+|----------|-------------|
+| `cli-template` | CLI development template with TypeScript, tsup, consola, and picocolors |
+| `llm-template` | LLM application development template with AI tools, Zod, Vitest, and Rslib |
+| `react-antd-pro` | Enterprise app template based on React 19 and Ant Design Pro 5 with TanStack toolchain |
+| `react-mantine-tailwind` | Modern UI template integrating Mantine UI and Tailwind CSS |
+| `react-tailwind` | React + Tailwind CSS starter with Rsbuild, TypeScript, and ESLint |
+| `react-tanstack` | Production-ready React template with TanStack Query/Router |
+| `react-three-maplibre` | 3D geospatial visualization library with Three.js, MapLibre, and AntV |
+| `react-visgl-maplibre` | Geospatial 3D rendering with Three.js, Deck.gl, and MapLibre |
+| `vue-tailwind` | Vue 3 + Tailwind CSS starter with modern development tools |
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (>= 18.x recommended)
+- Package manager (npm, yarn, pnpm, or bun)
+
+### Installation
+
+Install globally:
 
 ```bash
 # npm
@@ -31,7 +79,9 @@ pnpm add -g create-trapar-waves
 bun add -g create-trapar-waves
 ```
 
-## Usage
+### Usage
+
+Create a new project interactively:
 
 ```bash
 # Via pnpm create (Recommended)
@@ -47,62 +97,44 @@ pnpm dlx create-trapar-waves
 bunx create-trapar-waves
 ```
 
-## Available Templates
+Follow the interactive prompts to select a template and configure your project.
 
-The following project templates are available for creation, all leveraging the powerful Rstack ecosystem (Rsbuild/Rspack/Rslib) for optimal build performance:
+## 📁 Project Structure
 
-- `cli-template`: A CLI development template powered by modern tooling, integrating TypeScript, tsup for builds, consola for logging, and other core components to accelerate high-quality CLI project setup. Code quality ensured with ESLint.
-- `llm-template`: A production-ready template for LLM (Large Language Model) application development, integrating AI tools, TypeScript type safety, Zod validation, and modern dev utilities like Vitest and Rslib for efficient library development.
-- `react-antd-pro`: An enterprise application development template based on React 19 and Ant Design Pro 5, integrating TanStack toolchain (Router/Query), Rsbuild build tool, and Tailwind CSS styling solution, focusing on efficient development and type safety.
-- `react-mantine-tailwind`: A React template integrating Mantine UI and Tailwind CSS for modern web development, optimized with Rsbuild for fast builds.
-- `react-tailwind`: A modern UI development template integrating React and Tailwind CSS, with Rsbuild, TypeScript, ESLint (Antfu config), and Iconify support for an efficient development experience.
-- `react-tanstack`: A production-ready React template optimized for building modern web applications with TanStack ecosystem tools. This template provides a complete foundation including state management, routing, data fetching, and build optimization out of the box, powered by Rsbuild.
-- `react-three-maplibre`: A React-based library integrating Three.js, MapLibre, and AntV for advanced geospatial 3D visualizations, utilizing Rsbuild for optimized builds.
-- `react-visgl-maplibre`: A React-based geospatial visualization template integrating Three.js, Deck.gl, and MapLibre for 3D map interactions and rich geospatial data rendering, with Rsbuild-powered build optimization.
-- `vue-tailwind`: A Vue 3 project template with Tailwind CSS and modern development tools for rapid frontend development, featuring Rsbuild for lightning-fast builds.
-
-## Features
-
-- **Lightning Fast Downloads**: Leverages your locally configured npm mirror for blazing fast template downloads.
-- **Template Selection**: Choose from a curated list of project templates.
-- **Interactive Prompts**: Guided setup with intuitive prompts.
-- **Automatic .gitignore**: Generates a standard .gitignore file for your project.
-- **Next Steps Guidance**: Provides clear instructions for getting started with your new project.
-- **Rstack Ecosystem Integration**: Leverages the powerful Rstack ecosystem (Rsbuild/Rspack) for optimal build performance in selected templates.
-- **Code Quality Assurance**: Ensures code consistency and quality with Husky, lint-staged, and ESLint integration.
-
-## Development
-
-<details>
-
-<summary>Local Development</summary>
-
-```bash
-# Install dependencies
-pnpm install
-
-# Build
-pnpm run build
-
-# Run the CLI
-node dist/index.js
+```
+├── bin/              # CLI entry point
+├── dist/             # Build output
+├── src/              # Source code
+│   ├── commands/     # CLI command handlers
+│   ├── prompts/      # Interactive prompt logic
+│   ├── templates/    # Template definitions and metadata
+│   └── utils/        # Shared utilities
+├── tsup.config.ts    # tsup build configuration
+├── tsconfig.json     # TypeScript configuration
+├── eslint.config.mjs # ESLint configuration
+└── package.json      # Project dependencies and scripts
 ```
 
-</details>
+## 🤝 Contributing
 
-## License
+Contributions are welcome and greatly appreciated! Please follow these steps to contribute:
 
-[MIT](./LICENSE) License © 2023-Present [Trapar Waves](https://github.com/Trapar-waves/create-trapar-waves)
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-<!-- Badges -->
+## 📄 License
 
-[npm-version-src]: https://img.shields.io/npm/v/create-trapar-waves.svg
-[npm-version-href]: https://npmjs.com/package/create-trapar-waves
-[npm-downloads-src]: https://img.shields.io/npm/dm/create-trapar-waves.svg
-[npm-downloads-href]: https://npmjs.com/package/create-trapar-waves
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/create-trapar-waves.svg
-[bundle-href]: https://bundlephobia.com/package/@create-trapar-waves
-[jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-blue
-[jsdocs-href]: https://www.jsdocs.io/package/create-trapar-waves
-[license-src]: https://img.shields.io/github/license/trapar-waves/create-trapar-waves.svg
-[license-href]: https://github.com/trapar-waves/create-trapar-waves/blob/main/LICENSE
+MIT License © 2023-Present Trapar Waves
+
+## 👤 Author
+
+- **Rikka:** [admin@rikka.cc](mailto:admin@rikka.cc)
+- **GitHub Profile:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
+
+## 🔗 Links
+
+- **Repository:** [https://github.com/Trapar-waves/create-trapar-waves](https://github.com/Trapar-waves/create-trapar-waves)
+- **Issues:** [https://github.com/Trapar-waves/create-trapar-waves/issues](https://github.com/Trapar-waves/create-trapar-waves/issues)
