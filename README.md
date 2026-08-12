@@ -17,8 +17,6 @@
 
 ![Features](assets/readme/headers/features.svg)
 
-## ✨ Features
-
 - **Lightning Fast Downloads:** Leverages your locally configured npm mirror for blazing fast template downloads via `giget`.
 - **Template Selection:** Choose from a curated list of production-ready project templates covering CLI, React, Vue, and LLM development.
 - **Interactive Prompts:** Guided setup with intuitive prompts powered by `@clack/prompts`.
@@ -29,8 +27,6 @@
 - **Cross-Runtime Support:** Works with Node.js, Deno, and Bun out of the box.
 
 ![Tech Stack](assets/readme/headers/tech-stack.svg)
-
-## 💻 Tech Stack
 
 - **Language:** TypeScript (v5.9.x)
 - **Build Tool:** tsup
@@ -45,8 +41,6 @@
 See the [package.json](./package.json) for a full list of dependencies.
 
 ![Available Templates](assets/readme/headers/templates.svg)
-
-## 📦 Available Templates
 
 All templates leverage the powerful Rstack ecosystem (Rsbuild/Rspack/Rslib) for optimal build performance:
 
@@ -63,8 +57,6 @@ All templates leverage the powerful Rstack ecosystem (Rsbuild/Rspack/Rslib) for 
 | `vue-tailwind` | Vue 3 + Tailwind CSS starter with modern development tools |
 
 ![Getting Started](assets/readme/headers/getting-started.svg)
-
-## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -111,8 +103,6 @@ Follow the interactive prompts to select a template and configure your project.
 
 ![Project Structure](assets/readme/headers/project-structure.svg)
 
-## 📁 Project Structure
-
 ```
 ├── bin/              # CLI entry point
 ├── dist/             # Build output
@@ -129,8 +119,6 @@ Follow the interactive prompts to select a template and configure your project.
 
 ![Contributing](assets/readme/headers/contributing.svg)
 
-## 🤝 Contributing
-
 Contributions are welcome and greatly appreciated! Please follow these steps to contribute:
 
 1. Fork the repository
@@ -140,8 +128,6 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 5. Open a Pull Request
 
 ![License](assets/readme/headers/license.svg)
-
-## 📄 License
 
 MIT License © 2023-Present Trapar Waves
 

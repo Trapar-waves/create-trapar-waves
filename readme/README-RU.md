@@ -17,8 +17,6 @@
 
 ![Features](../assets/readme/headers/features.svg)
 
-## ✨ Возможности
-
 - **Молниеносная загрузка:** Использует локально настроенный npm-зеркало для сверхбыстрой загрузки шаблонов через `giget`.
 - **Выбор шаблона:** Выбирайте из курированного списка готовых к продакшену шаблонов проектов, охватывающих CLI, React, Vue и LLM разработку.
 - **Интерактивные подсказки:** Настройка с помощью интуитивных подсказок на базе `@clack/prompts`.
@@ -29,8 +27,6 @@
 - **Поддержка сред выполнения:** Работает с Node.js, Deno и Bun из коробки.
 
 ![Tech Stack](../assets/readme/headers/tech-stack.svg)
-
-## 💻 Технический стек
 
 - **Язык:** TypeScript (v5.9.x)
 - **Инструмент сборки:** tsup
@@ -45,8 +41,6 @@
 Полный список зависимостей смотрите в [package.json](../package.json).
 
 ![Available Templates](../assets/readme/headers/templates.svg)
-
-## 📦 Доступные шаблоны
 
 Все шаблоны используют мощную экосистему Rstack (Rsbuild/Rspack/Rslib) для оптимальной производительности сборки:
 
@@ -63,8 +57,6 @@
 | `vue-tailwind` | Vue 3 + Tailwind CSS стартовый шаблон с современными инструментами разработки |
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 🚀 Начало работы
 
 ### Предварительные требования
 
@@ -111,8 +103,6 @@ bunx create-trapar-waves
 
 ![Project Structure](../assets/readme/headers/project-structure.svg)
 
-## 📁 Структура проекта
-
 ```
 ├── bin/              # Точка входа CLI
 ├── dist/             # Результат сборки
@@ -129,8 +119,6 @@ bunx create-trapar-waves
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-## 🤝 Участие в разработке
-
 Участие приветствуется и высоко ценится! Пожалуйста, следуйте этим шагам для вклада:
 
 1. Fork репозиторий
@@ -140,8 +128,6 @@ bunx create-trapar-waves
 5. Откройте Pull Request
 
 ![License](../assets/readme/headers/license.svg)
-
-## 📄 Лицензия
 
 MIT License © 2023-Present Trapar Waves
 

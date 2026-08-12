@@ -17,8 +17,6 @@
 
 ![Features](../assets/readme/headers/features.svg)
 
-## ✨ 特性
-
 - **闪电般快速下载：** 利用本地配置的 npm 镜像，通过 `giget` 实现极速模板下载。
 - **模板选择：** 从精选的生产就绪项目模板列表中选择，涵盖 CLI、React、Vue 和 LLM 开发。
 - **交互式提示：** 由 `@clack/prompts` 提供支持的直观引导式设置。
@@ -29,8 +27,6 @@
 - **跨运行时支持：** 开箱即用支持 Node.js、Deno 和 Bun。
 
 ![Tech Stack](../assets/readme/headers/tech-stack.svg)
-
-## 💻 技术栈
 
 - **语言：** TypeScript (v5.9.x)
 - **构建工具：** tsup
@@ -45,8 +41,6 @@
 查看 [package.json](../package.json) 获取完整的依赖列表。
 
 ![Available Templates](../assets/readme/headers/templates.svg)
-
-## 📦 可用模板
 
 所有模板利用强大的 Rstack 生态系统（Rsbuild/Rspack/Rslib）实现最优构建性能：
 
@@ -63,8 +57,6 @@
 | `vue-tailwind` | Vue 3 + Tailwind CSS 入门模板，配备现代开发工具 |
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 🚀 快速开始
 
 ### 前置条件
 
@@ -111,8 +103,6 @@ bunx create-trapar-waves
 
 ![Project Structure](../assets/readme/headers/project-structure.svg)
 
-## 📁 项目结构
-
 ```
 ├── bin/              # CLI 入口点
 ├── dist/             # 构建输出
@@ -129,8 +119,6 @@ bunx create-trapar-waves
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-## 🤝 贡献
-
 欢迎贡献，非常感谢！请按照以下步骤贡献：
 
 1. Fork 仓库
@@ -140,8 +128,6 @@ bunx create-trapar-waves
 5. 创建 Pull Request
 
 ![License](../assets/readme/headers/license.svg)
-
-## 📄 许可证
 
 MIT License © 2023-Present Trapar Waves
 

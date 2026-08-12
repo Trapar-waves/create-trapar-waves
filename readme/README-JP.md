@@ -17,8 +17,6 @@
 
 ![Features](../assets/readme/headers/features.svg)
 
-## ✨ 特徴
-
 - **超高速ダウンロード：** ローカルに設定された npm ミラーを活用し、`giget` を使用してブレーキングファストなテンプレートダウンロードを実現。
 - **テンプレート選択：** CLI、React、Vue、LLM 開発をカバーする、キュレーションされた本番対応プロジェクトテンプレートから選択。
 - **インタラクティブプロンプト：** `@clack/prompts` による直感的なガイド付きセットアップ。
@@ -29,8 +27,6 @@
 - **ランタイムサポート：** Node.js、Deno、Bun をすぐにサポート。
 
 ![Tech Stack](../assets/readme/headers/tech-stack.svg)
-
-## 💻 技術スタック
 
 - **言語：** TypeScript (v5.9.x)
 - **ビルドツール：** tsup
@@ -45,8 +41,6 @@
 依存関係の完全なリストは [package.json](../package.json) を参照してください。
 
 ![Available Templates](../assets/readme/headers/templates.svg)
-
-## 📦 利用可能なテンプレート
 
 すべてのテンプレートが強力な Rstack エコシステム（Rsbuild/Rspack/Rslib）を活用し、最適なビルド性能を実現：
 
@@ -63,8 +57,6 @@
 | `vue-tailwind` | モダンな開発ツールを備えた Vue 3 + Tailwind CSS スターターテンプレート |
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 🚀 はじめに
 
 ### 前提条件
 
@@ -111,8 +103,6 @@ bunx create-trapar-waves
 
 ![Project Structure](../assets/readme/headers/project-structure.svg)
 
-## 📁 プロジェクト構造
-
 ```
 ├── bin/              # CLI エントリーポイント
 ├── dist/             # ビルド出力
@@ -129,8 +119,6 @@ bunx create-trapar-waves
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-## 🤝 コントリビュート
-
 コントリビュートを歓迎します！以下の手順に従ってコントリビュートしてください：
 
 1. リポジトリをフォーク
@@ -140,8 +128,6 @@ bunx create-trapar-waves
 5. Pull Request を作成
 
 ![License](../assets/readme/headers/license.svg)
-
-## 📄 ライセンス
 
 MIT License © 2023-Present Trapar Waves
 
