@@ -13,6 +13,10 @@
 
 > 一个项目脚手架 CLI 工具，用于从精选模板下载和创建项目，利用 Rstack 生态系统（Rsbuild/Rspack/Rslib）实现最优构建性能。
 
+![create-trapar-waves hero](../assets/readme/hero.svg)
+
+![Features](../assets/readme/headers/features.svg)
+
 ## ✨ 特性
 
 - **闪电般快速下载：** 利用本地配置的 npm 镜像，通过 `giget` 实现极速模板下载。
@@ -23,6 +27,8 @@
 - **Rstack 生态系统集成：** 所有模板利用强大的 Rstack 生态系统（Rsbuild/Rspack/Rslib）实现最优构建性能。
 - **代码质量保证：** 模板内置 Husky、lint-staged 和 ESLint 集成，确保一致的代码质量。
 - **跨运行时支持：** 开箱即用支持 Node.js、Deno 和 Bun。
+
+![Tech Stack](../assets/readme/headers/tech-stack.svg)
 
 ## 💻 技术栈
 
@@ -37,6 +43,8 @@
 - **生态系统：** `@trapar-waves/captain`
 
 查看 [package.json](../package.json) 获取完整的依赖列表。
+
+![Available Templates](../assets/readme/headers/templates.svg)
 
 ## 📦 可用模板
 
@@ -53,6 +61,8 @@
 | `react-three-maplibre` | 3D 地理空间可视化库，集成 Three.js、MapLibre 和 AntV |
 | `react-visgl-maplibre` | 地理空间 3D 渲染，集成 Three.js、Deck.gl 和 MapLibre |
 | `vue-tailwind` | Vue 3 + Tailwind CSS 入门模板，配备现代开发工具 |
+
+![Getting Started](../assets/readme/headers/getting-started.svg)
 
 ## 🚀 快速开始
 
@@ -99,6 +109,8 @@ bunx create-trapar-waves
 
 按照交互式提示选择模板并配置项目。
 
+![Project Structure](../assets/readme/headers/project-structure.svg)
+
 ## 📁 项目结构
 
 ```
@@ -115,6 +127,8 @@ bunx create-trapar-waves
 └── package.json      # 项目依赖和脚本
 ```
 
+![Contributing](../assets/readme/headers/contributing.svg)
+
 ## 🤝 贡献
 
 欢迎贡献，非常感谢！请按照以下步骤贡献：
@@ -124,6 +138,8 @@ bunx create-trapar-waves
 3. 提交更改（`git commit -m 'Add some amazing feature'`）
 4. 推送到分支（`git push origin feature/amazing-feature`）
 5. 创建 Pull Request
+
+![License](../assets/readme/headers/license.svg)
 
 ## 📄 许可证
 

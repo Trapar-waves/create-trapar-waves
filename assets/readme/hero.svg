@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 450" width="100%">
+  <title>create-trapar-waves — Project scaffolding CLI tool</title>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EC4899;stop-opacity:0.08"/>
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:0.03"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#EC4899" opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="450" fill="#FFFFFF"/>
+  <rect width="1200" height="450" fill="url(#bg)"/>
+  <rect width="1200" height="450" fill="url(#dots)"/>
+  <rect x="0.5" y="0.5" width="1199" height="449" rx="12" ry="12" fill="none" stroke="#E2E8F0" stroke-width="1"/>
+  <g transform="translate(80, 100)">
+    <text x="0" y="0" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', monospace" font-size="18" fill="#64748B" letter-spacing="1">trapar-waves</text>
+    <text x="0" y="60" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="bold" fill="#EC4899">create-trapar-waves</text>
+    <text x="0" y="110" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#475569">Project scaffolding CLI tool</text>
+    <text x="0" y="142" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#475569">with giget + @clack/prompts</text>
+    <g transform="translate(0, 170)">
+      <rect x="0" y="0" width="80" height="36" rx="18" fill="#EC4899" opacity="0.12"/>
+      <text x="40" y="23" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#EC4899">giget</text>
+      <rect x="90" y="0" width="80" height="36" rx="18" fill="#EC4899" opacity="0.12"/>
+      <text x="130" y="23" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#EC4899">yargs</text>
+      <rect x="180" y="0" width="100" height="36" rx="18" fill="#EC4899" opacity="0.12"/>
+      <text x="230" y="23" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#EC4899">TypeScript</text>
+    </g>
+  </g>
+  <g transform="translate(640, 60)">
+    <g transform="translate(0, 0)">
+      <rect width="240" height="150" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <rect x="1" y="1" width="238" height="4" rx="2" fill="#EC4899"/>
+      <text x="24" y="52" font-family="system-ui, sans-serif" font-size="36">🚀</text>
+      <text x="68" y="52" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#0F172A">Fast Download</text>
+      <text x="24" y="88" font-family="system-ui, sans-serif" font-size="14" fill="#64748B">npm mirror support</text>
+      <text x="24" y="112" font-family="system-ui, sans-serif" font-size="14" fill="#64748B">giget powered</text>
+    </g>
+    <g transform="translate(260, 0)">
+      <rect width="240" height="150" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <rect x="1" y="1" width="238" height="4" rx="2" fill="#EC4899"/>
+      <text x="24" y="52" font-family="system-ui, sans-serif" font-size="36">📦</text>
+      <text x="68" y="52" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#0F172A">Templates</text>
+      <text x="24" y="88" font-family="system-ui, sans-serif" font-size="14" fill="#64748B">9 production-ready</text>
+      <text x="24" y="112" font-family="system-ui, sans-serif" font-size="14" fill="#64748B">CLI, React, Vue, LLM</text>
+    </g>
+    <g transform="translate(0, 170)">
+      <rect width="240" height="150" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <rect x="1" y="1" width="238" height="4" rx="2" fill="#EC4899"/>
+      <text x="24" y="52" font-family="system-ui, sans-serif" font-size="36">⚡</text>
+      <text x="68" y="52" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#0F172A">Interactive</text>
+      <text x="24" y="88" font-family="system-ui, sans-serif" font-size="14" fill="#64748B">@clack/prompts</text>
+      <text x="24" y="112" font-family="system-ui, sans-serif" font-size="14" fill="#64748B">Guided setup</text>
+    </g>
+    <g transform="translate(260, 170)">
+      <rect width="240" height="150" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <rect x="1" y="1" width="238" height="4" rx="2" fill="#EC4899"/>
+      <text x="24" y="52" font-family="system-ui, sans-serif" font-size="36">🎯</text>
+      <text x="68" y="52" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#0F172A">Cross-Runtime</text>
+      <text x="24" y="88" font-family="system-ui, sans-serif" font-size="14" fill="#64748B">Node.js, Deno, Bun</text>
+      <text x="24" y="112" font-family="system-ui, sans-serif" font-size="14" fill="#64748B">Universal support</text>
+    </g>
+  </g>
+</svg>

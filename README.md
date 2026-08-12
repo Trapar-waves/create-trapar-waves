@@ -13,6 +13,10 @@
 
 > A project scaffolding CLI tool for downloading and creating projects from curated templates, leveraging the Rstack ecosystem (Rsbuild/Rspack/Rslib) for optimal build performance.
 
+![create-trapar-waves hero](assets/readme/hero.svg)
+
+![Features](assets/readme/headers/features.svg)
+
 ## ✨ Features
 
 - **Lightning Fast Downloads:** Leverages your locally configured npm mirror for blazing fast template downloads via `giget`.
@@ -23,6 +27,8 @@
 - **Rstack Ecosystem Integration:** All templates leverage the powerful Rstack ecosystem (Rsbuild/Rspack/Rslib) for optimal build performance.
 - **Code Quality Assurance:** Templates ship with Husky, lint-staged, and ESLint integration for consistent code quality.
 - **Cross-Runtime Support:** Works with Node.js, Deno, and Bun out of the box.
+
+![Tech Stack](assets/readme/headers/tech-stack.svg)
 
 ## 💻 Tech Stack
 
@@ -37,6 +43,8 @@
 - **Ecosystem:** `@trapar-waves/captain`
 
 See the [package.json](./package.json) for a full list of dependencies.
+
+![Available Templates](assets/readme/headers/templates.svg)
 
 ## 📦 Available Templates
 
@@ -53,6 +61,8 @@ All templates leverage the powerful Rstack ecosystem (Rsbuild/Rspack/Rslib) for 
 | `react-three-maplibre` | 3D geospatial visualization library with Three.js, MapLibre, and AntV |
 | `react-visgl-maplibre` | Geospatial 3D rendering with Three.js, Deck.gl, and MapLibre |
 | `vue-tailwind` | Vue 3 + Tailwind CSS starter with modern development tools |
+
+![Getting Started](assets/readme/headers/getting-started.svg)
 
 ## 🚀 Getting Started
 
@@ -99,6 +109,8 @@ bunx create-trapar-waves
 
 Follow the interactive prompts to select a template and configure your project.
 
+![Project Structure](assets/readme/headers/project-structure.svg)
+
 ## 📁 Project Structure
 
 ```
@@ -115,6 +127,8 @@ Follow the interactive prompts to select a template and configure your project.
 └── package.json      # Project dependencies and scripts
 ```
 
+![Contributing](assets/readme/headers/contributing.svg)
+
 ## 🤝 Contributing
 
 Contributions are welcome and greatly appreciated! Please follow these steps to contribute:
@@ -124,6 +138,8 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+
+![License](assets/readme/headers/license.svg)
 
 ## 📄 License
 

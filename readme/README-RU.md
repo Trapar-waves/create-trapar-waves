@@ -13,6 +13,10 @@
 
 > CLI-инструмент для создания проектов из шаблонов, использующий экосистему Rstack (Rsbuild/Rspack/Rslib) для оптимальной производительности сборки.
 
+![create-trapar-waves hero](../assets/readme/hero.svg)
+
+![Features](../assets/readme/headers/features.svg)
+
 ## ✨ Возможности
 
 - **Молниеносная загрузка:** Использует локально настроенный npm-зеркало для сверхбыстрой загрузки шаблонов через `giget`.
@@ -23,6 +27,8 @@
 - **Интеграция с Rstack:** Все шаблоны используют мощную экосистему Rstack (Rsbuild/Rspack/Rslib) для оптимальной производительности сборки.
 - **Гарантия качества кода:** Шаблоны поставляются с интеграцией Husky, lint-staged и ESLint для обеспечения качества кода.
 - **Поддержка сред выполнения:** Работает с Node.js, Deno и Bun из коробки.
+
+![Tech Stack](../assets/readme/headers/tech-stack.svg)
 
 ## 💻 Технический стек
 
@@ -37,6 +43,8 @@
 - **Экосистема:** `@trapar-waves/captain`
 
 Полный список зависимостей смотрите в [package.json](../package.json).
+
+![Available Templates](../assets/readme/headers/templates.svg)
 
 ## 📦 Доступные шаблоны
 
@@ -53,6 +61,8 @@
 | `react-three-maplibre` | Библиотека 3D геопространственной визуализации с Three.js, MapLibre и AntV |
 | `react-visgl-maplibre` | Геопространственный 3D рендеринг с Three.js, Deck.gl и MapLibre |
 | `vue-tailwind` | Vue 3 + Tailwind CSS стартовый шаблон с современными инструментами разработки |
+
+![Getting Started](../assets/readme/headers/getting-started.svg)
 
 ## 🚀 Начало работы
 
@@ -99,6 +109,8 @@ bunx create-trapar-waves
 
 Следуйте интерактивным подсказкам для выбора шаблона и настройки проекта.
 
+![Project Structure](../assets/readme/headers/project-structure.svg)
+
 ## 📁 Структура проекта
 
 ```
@@ -115,6 +127,8 @@ bunx create-trapar-waves
 └── package.json      # Зависимости и скрипты проекта
 ```
 
+![Contributing](../assets/readme/headers/contributing.svg)
+
 ## 🤝 Участие в разработке
 
 Участие приветствуется и высоко ценится! Пожалуйста, следуйте этим шагам для вклада:
@@ -124,6 +138,8 @@ bunx create-trapar-waves
 3. Зафиксируйте изменения (`git commit -m 'Add some amazing feature'`)
 4. Отправьте изменения в ветку (`git push origin feature/amazing-feature`)
 5. Откройте Pull Request
+
+![License](../assets/readme/headers/license.svg)
 
 ## 📄 Лицензия
 
