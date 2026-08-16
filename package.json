@@ -2,7 +2,7 @@
   "name": "create-trapar-waves",
   "type": "commonjs",
   "version": "1.2.21",
-  "packageManager": "pnpm@11.21.0",
+  "packageManager": "pnpm@11.22.0",
   "description": "",
   "publishConfig": {
     "access": "public"
@@ -49,10 +49,10 @@
     "@antfu/eslint-config": "^9.3.0",
     "@npm/types": "^2.1.0",
     "@rslib/core": "^0.23.2",
-    "@types/node": "^25.9.5",
+    "@types/node": "^26.2.0",
     "@types/yargs": "^17.0.35",
     "eslint": "^10.8.1",
     "tsx": "^4.23.12",
-    "typescript": "^7.0.2"
+    "typescript": "^6.0.3"
   }
 }

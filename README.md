@@ -58,7 +58,7 @@ All templates leverage the powerful Rstack ecosystem (Rsbuild/Rspack/Rslib) for 
 
 ![Getting Started](assets/readme/headers/getting-started.svg)
 
-### Prerequisites
+## Prerequisites
 
 - Node.js (>= 18.x recommended)
 - Package manager (npm, yarn, pnpm, or bun)
