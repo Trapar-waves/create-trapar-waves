@@ -6,13 +6,13 @@ export default defineConfig({
       format: "cjs",
     },
   ],
+  output: {
+    cleanDistPath: true,
+    sourceMap: false,
+  },
   source: {
     entry: {
       run: "./bin/run.ts",
     },
-  },
-  output: {
-    cleanDistPath: true,
-    sourceMap: false,
   },
 });

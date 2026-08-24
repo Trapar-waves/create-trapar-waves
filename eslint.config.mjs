@@ -1,13 +1,13 @@
-import { antfu } from "@antfu/eslint-config";
+import { renton } from "@renton/eslint-config";
 
-export default antfu({
+export default renton({
   stylistic: {
     quotes: "double",
     semi: true,
   },
 }, {
-  name: "trapar/pnpm-workspace-yaml-trust-policy",
   files: ["pnpm-workspace.yaml"],
+  name: "trapar/pnpm-workspace-yaml-trust-policy",
   rules: {
     "pnpm/yaml-enforce-settings": "off",
   },

@@ -1,19 +1,19 @@
 import type { Packument } from "@npm/types";
 import type { TemplateProvider } from "giget";
 import type { Argv } from "yargs";
-import { execSync } from "node:child_process";
-import { writeFileSync } from "node:fs";
 import { note, outro } from "@clack/prompts";
 import { createList } from "@trapar-waves/captain";
 import { destr } from "destr";
 import { downloadTemplate } from "giget";
+import { execSync } from "node:child_process";
+import { writeFileSync } from "node:fs";
 import { ofetch } from "ofetch";
 import { bold, cyan, dim, gray, reset } from "picocolors";
 import { logger as rslog } from "rslog";
 import { joinURL } from "ufo";
 import { logger } from "../logger";
 
-interface GreetingArgv {}
+type GreetingArgv = Record<string, never>;
 
 export const command = "$0";
 export const describe = "Template download tools";
@@ -30,12 +30,12 @@ export async function handler() {
   });
 
   const templateName = await logger.prompt("Choose template", {
-    type: "select",
     options: createList.map(item =>
       ({
         label: `${bold(item.name)} ${item.description ? gray(item.description) : ""}`,
         value: item.name,
       })),
+    type: "select",
   });
 
   const registry = execSync("npm get registry --global").toString();
