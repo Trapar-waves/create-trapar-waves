@@ -46,7 +46,7 @@
     "yargs": "^18.1.0"
   },
   "devDependencies": {
-    "@renton/eslint-config": "^0.2.0",
+    "@renton/eslint-config": "^1.0.0",
     "@npm/types": "^2.1.0",
     "@rslib/core": "^0.23.2",
     "@types/node": "^26.3.0",
