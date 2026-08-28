@@ -52,7 +52,7 @@ importers:
         specifier: ^17.0.35
         version: 17.0.35
       eslint:
-        specifier: ^9.32.0
+        specifier: ^9.39.5
         version: 9.39.5
       ts-node:
         specifier: ^10.9.2
