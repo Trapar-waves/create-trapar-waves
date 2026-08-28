@@ -1,8 +1,8 @@
 {
   "name": "create-trapar-waves",
   "type": "commonjs",
-  "version": "1.2.21",
-  "packageManager": "pnpm@11.24.0",
+  "version": "1.2.0",
+  "packageManager": "pnpm@10.13.1",
   "description": "",
   "publishConfig": {
     "access": "public"
@@ -13,13 +13,13 @@
     "url": "https://github.com/Muromi-Rikka"
   },
   "license": "MIT",
-  "homepage": "https://github.com/Trapar-waves/create-trapar-waves",
+  "homepage": "https://github.com/Trapar-Waves/create-trapar-waves",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Trapar-waves/create-trapar-waves"
+    "url": "git+https://github.com/Trapar-Waves/create-trapar-waves.git"
   },
   "bugs": {
-    "url": "https://github.com/Trapar-waves/create-trapar-waves/issues"
+    "url": "https://github.com/Trapar-Waves/create-trapar-waves/issues"
   },
   "keywords": [],
   "main": "index.js",
@@ -34,25 +34,25 @@
     "lint": "eslint . --cache"
   },
   "dependencies": {
-    "@clack/prompts": "^1.7.0",
-    "@trapar-waves/captain": "^1.2.0",
+    "@clack/prompts": "^0.11.0",
+    "@trapar-waves/captain": "^1.1.4",
     "consola": "^3.4.2",
     "destr": "^2.0.5",
-    "giget": "^3.3.1",
-    "ofetch": "^1.5.1",
+    "giget": "^2.0.0",
+    "ofetch": "^1.4.1",
     "picocolors": "^1.1.1",
-    "rslog": "^2.3.0",
-    "ufo": "^1.6.4",
-    "yargs": "^18.1.0"
+    "rslog": "^1.2.9",
+    "ufo": "^1.6.1",
+    "yargs": "^18.0.0"
   },
   "devDependencies": {
-    "@renton/eslint-config": "^1.0.0",
+    "@antfu/eslint-config": "^5.0.0",
     "@npm/types": "^2.1.0",
-    "@rslib/core": "^0.23.2",
-    "@types/node": "^26.4.0",
-    "@types/yargs": "^17.0.35",
-    "eslint": "^10.9.1",
-    "tsx": "^4.23.12",
-    "typescript": "^6.0.3"
+    "@types/node": "^24.1.0",
+    "@types/yargs": "^17.0.33",
+    "eslint": "^9.32.0",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
   }
 }
