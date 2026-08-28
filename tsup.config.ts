@@ -1,9 +1,9 @@
 import { defineConfig } from "tsup";
 
 export default defineConfig({
+  clean: true,
   entry: ["bin/run.ts"],
   format: ["cjs"],
-  splitting: false,
   sourcemap: false,
-  clean: true,
+  splitting: false,
 });
