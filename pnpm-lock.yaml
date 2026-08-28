@@ -49,7 +49,7 @@ importers:
         specifier: ^24.1.0
         version: 24.13.3
       '@types/yargs':
-        specifier: ^17.0.33
+        specifier: ^17.0.35
         version: 17.0.35
       eslint:
         specifier: ^9.32.0
