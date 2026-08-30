@@ -12,8 +12,8 @@ importers:
         specifier: ^1.7.0
         version: 1.7.0
       '@trapar-waves/captain':
-        specifier: ^1.2.0
-        version: 1.2.0
+        specifier: ^2.0.0
+        version: 2.0.0
       consola:
         specifier: ^3.4.2
         version: 3.4.2
@@ -853,8 +853,8 @@ packages:
   '@swc/helpers@0.5.23':
     resolution: {integrity: sha512-5lSsMOTXURePglDfvuAQUqkGek9Hg2kksOYay2m0+XR++b2NWYL/4sWyuvVBIs8oKnJaxkdi9whaL/sqN13afw==}
 
-  '@trapar-waves/captain@1.2.0':
-    resolution: {integrity: sha512-4CDwr36ubI+zJKzHj1B7RJdKl1/gt1iCXr4MbbdqaELJG8+ueM16HVN4bp12lWQ8HXXTGlqNqPnk+hsahUy89w==}
+  '@trapar-waves/captain@2.0.0':
+    resolution: {integrity: sha512-aQkMwEzgHu2s4XeWsdo6PnLn+OcRJDMaBkCHaESR++K/PPua5cbZx/qY/i9SeS02viip9Lg/B3dN6IU2U0MqMA==}
 
   '@tsconfig/node10@1.0.13':
     resolution: {integrity: sha512-gcLdvR9HO1ZJBypsOGqaP6TFEzb6vIta0KSTLt9NAQ6pXQO3cRgSVyCN6pzYqI9DlJgY71XKO0dpDhCf08b3pg==}
@@ -2763,7 +2763,7 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@trapar-waves/captain@1.2.0':
+  '@trapar-waves/captain@2.0.0':
     dependencies:
       destr: 2.0.5
       pkg-types: 2.3.1
