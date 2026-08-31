@@ -24,7 +24,7 @@
   "keywords": [],
   "main": "index.js",
   "bin": {
-    "create-trapar-waves": "./bin/run"
+    "create-trapar-waves": "bin/run"
   },
   "scripts": {
     "start": "tsx ./bin/run.ts",
