@@ -150,8 +150,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0(typescript@6.0.3)
       '@types/node':
-        specifier: ^26.5.0
-        version: 26.5.0
+        specifier: ^26.5.1
+        version: 26.5.1
       '@types/yargs':
         specifier: ^17.0.35
         version: 17.0.35
@@ -160,7 +160,7 @@ importers:
         version: 10.10.0
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@26.5.0)(typescript@6.0.3)
+        version: 10.9.2(@types/node@26.5.1)(typescript@6.0.3)
       tsup:
         specifier: ^8.5.1
         version: 8.5.1(typescript@6.0.3)(yaml@2.9.0)
@@ -1011,8 +1011,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@26.5.0':
-    resolution: {integrity: sha512-dVSGpriSoCgz8WnDNTuSSuSv1PC/ALXihO4ulRZt7Md8k9mlbdin3lGOcDE8SnWOgf513ByWlXd7BK4azmyg/A==}
+  '@types/node@26.5.1':
+    resolution: {integrity: sha512-CzNm2FezW4VR/LjG6yUdiEgLE/rAQ9Slj5gCu/C2VrdcW7I0ahNZ8DRbHT7zOZ6r3ONgd/bsQIeSaoDGrd1C6g==}
 
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
@@ -3004,7 +3004,7 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@26.5.0':
+  '@types/node@26.5.1':
     dependencies:
       undici-types: 8.9.0
 
@@ -3780,7 +3780,7 @@ snapshots:
   jsdoc-type-pratt-parser@9.2.1:
     dependencies:
       '@types/estree': 1.0.9
-      '@types/node': 26.5.0
+      '@types/node': 26.5.1
 
   jsesc@3.1.0: {}
 
@@ -4488,14 +4488,14 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  ts-node@10.9.2(@types/node@26.5.0)(typescript@6.0.3):
+  ts-node@10.9.2(@types/node@26.5.1)(typescript@6.0.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.13
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 26.5.0
+      '@types/node': 26.5.1
       acorn: 8.18.0
       acorn-walk: 8.3.5
       arg: 4.1.3
