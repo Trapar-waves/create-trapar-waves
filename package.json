@@ -43,7 +43,7 @@
     "picocolors": "^1.1.1",
     "rslog": "^2.3.0",
     "ufo": "^1.6.4",
-    "yargs": "^18.1.0"
+    "yargs": "^18.2.0"
   },
   "devDependencies": {
     "@npm/types": "^2.1.0",
