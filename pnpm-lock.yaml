@@ -170,8 +170,8 @@ importers:
         specifier: ^1.8.1
         version: 1.8.1
       '@trapar-waves/captain':
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: ^2.0.2
+        version: 2.0.2
       consola:
         specifier: ^3.4.2
         version: 3.4.2
@@ -1026,8 +1026,8 @@ packages:
   '@swc/helpers@0.5.23':
     resolution: {integrity: sha512-5lSsMOTXURePglDfvuAQUqkGek9Hg2kksOYay2m0+XR++b2NWYL/4sWyuvVBIs8oKnJaxkdi9whaL/sqN13afw==}
 
-  '@trapar-waves/captain@2.0.0':
-    resolution: {integrity: sha512-aQkMwEzgHu2s4XeWsdo6PnLn+OcRJDMaBkCHaESR++K/PPua5cbZx/qY/i9SeS02viip9Lg/B3dN6IU2U0MqMA==}
+  '@trapar-waves/captain@2.0.2':
+    resolution: {integrity: sha512-Abnqjd+jokjA8cx3wQiA3rcVnx4vBxbbkrjsrtQdOJv+d+dZiCytVZ/s9kXcnfFww/EG9coDPit2ETt+UVCqNA==}
 
   '@tsconfig/node10@1.0.13':
     resolution: {integrity: sha512-gcLdvR9HO1ZJBypsOGqaP6TFEzb6vIta0KSTLt9NAQ6pXQO3cRgSVyCN6pzYqI9DlJgY71XKO0dpDhCf08b3pg==}
@@ -1322,6 +1322,9 @@ packages:
 
   confbox@0.2.4:
     resolution: {integrity: sha512-ysOGlgTFbN2/Y6Cg3Iye8YKulHw+R2fNXHrgSmXISQdMnomY6eNDprVdW9R5xBguEqI954+S6709UyiO7B+6OQ==}
+
+  confbox@0.3.1:
+    resolution: {integrity: sha512-cKUSoKa8YxFZZSmraVi7onONx3amu77ngK3kGpsYHDH7drPwCRkQE1RYMPlLRrMtnciRj274XNRxcHxnKmDSnA==}
 
   consola@3.4.2:
     resolution: {integrity: sha512-5IKcdX0nnYavi6G7TtOhwkYzyjfJlatbjMjuLSfE2kYT5pMDOilZ4OvMhi637CcDICTmz3wARPoyhqyX1Y+XvA==}
@@ -2065,6 +2068,9 @@ packages:
 
   pkg-types@2.3.1:
     resolution: {integrity: sha512-y+ichcgc2LrADuhLNAx8DFjVfgz91pRxfZdI3UDhxHvcVEZsenLO+7XaU5vOp0u/7V/wZ+plyuQxtrDlZJ+yeg==}
+
+  pkg-types@2.3.3:
+    resolution: {integrity: sha512-j/lCFdcppV0JxWpCEITdbDltBxPP6cHT+yNJ6Go2OgoSA9518X847X9z0p6LtA4Nc16+eQzCZjRrWanTGvHJ5w==}
 
   pluralize@8.0.0:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
@@ -3020,10 +3026,10 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@trapar-waves/captain@2.0.0':
+  '@trapar-waves/captain@2.0.2':
     dependencies:
       destr: 2.0.5
-      pkg-types: 2.3.1
+      pkg-types: 2.3.3
       ufo: 1.6.4
 
   '@tsconfig/node10@1.0.13': {}
@@ -3347,6 +3353,8 @@ snapshots:
   confbox@0.1.8: {}
 
   confbox@0.2.4: {}
+
+  confbox@0.3.1: {}
 
   consola@3.4.2: {}
 
@@ -4346,6 +4354,12 @@ snapshots:
   pkg-types@2.3.1:
     dependencies:
       confbox: 0.2.4
+      exsolve: 1.1.1
+      pathe: 2.0.3
+
+  pkg-types@2.3.3:
+    dependencies:
+      confbox: 0.3.1
       exsolve: 1.1.1
       pathe: 2.0.3
 
