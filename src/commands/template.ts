@@ -32,7 +32,9 @@ export async function handler() {
   const templateName = await logger.prompt("Choose template", {
     options: createList.map(item =>
       ({
-        label: `${bold(item.name)} ${item.description ? gray(item.description) : ""}`,
+        label: `${bold(item.name)} ${item.description
+          ? gray(item.description)
+          : ""}`,
         value: item.name,
       })),
     type: "select",
