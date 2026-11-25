@@ -216,8 +216,8 @@ importers:
         specifier: ^1.0.7
         version: 1.0.7(typescript@6.0.3)
       '@types/node':
-        specifier: ^26.6.6
-        version: 26.6.6
+        specifier: ^26.6.7
+        version: 26.6.7
       '@types/yargs':
         specifier: ^17.0.35
         version: 17.0.35
@@ -226,7 +226,7 @@ importers:
         version: 10.15.0
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@26.6.6)(typescript@6.0.3)
+        version: 10.9.2(@types/node@26.6.7)(typescript@6.0.3)
       tsup:
         specifier: ^9.0.0
         version: 9.0.0(typescript@6.0.3)(yaml@2.9.1)
@@ -1242,8 +1242,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@26.6.6':
-    resolution: {integrity: sha512-MzQj+8Kx3XI40OmUAE6Qoh58ZMNstNNMwn2nfd3qWsfe7nDNSqJNzes4njhz6AHwrSHOffSLwXU6yb474Q4aog==}
+  '@types/node@26.6.7':
+    resolution: {integrity: sha512-tovuRfrUILu6v46bMG+BgXxMvsqPBx2WO2as8Rpln+JTff1dbexMtAM4KFTejmL0axsnSWViCW7MecUQpLuBRA==}
 
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
@@ -3325,7 +3325,7 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@26.6.6':
+  '@types/node@26.6.7':
     dependencies:
       undici-types: 8.9.0
 
@@ -4819,14 +4819,14 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  ts-node@10.9.2(@types/node@26.6.6)(typescript@6.0.3):
+  ts-node@10.9.2(@types/node@26.6.7)(typescript@6.0.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.13
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 26.6.6
+      '@types/node': 26.6.7
       acorn: 8.18.0
       acorn-walk: 8.3.5
       arg: 4.1.3
